@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Food</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <section class="Sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/FoodLogo.png"</a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()">  </i>
+                    <ul>
+                        <li><a href="file:///E:/JOHN%20RHEY/JAVA%20HTML/index.html">HOME</a></li>
+                        <li><a href="file:///E:/JOHN%20RHEY/JAVA%20HTML/Facts.html">FACTS</a></li>
+                        <li><a href="file:///E:/JOHN%20RHEY/JAVA%20HTML/About.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+<h1>
+    Facts
+</h1>
+        </section>
+<!---Facts-->
+
+<section class="Facts">
+    <h1>Facts</h1>
+    <p>Here are facts about food</p>
+    
+    <div class="row">
+        <div class="fact1">
+            <h3>Fact #1 <br>Dark Chocolate</h3>
+            <p>Chocolate was first seen in bar form around 1910. Dark chocolate is made from the roasted beans of the cacao tree and has many health benefits. From improving bad cholesterol to lowering blood pressure, helping to reduce stress and improving vision, it’s definitely worth eating a square or two a day. A study by Harvard also found that drinking two cups of hot chocolate a day prevented memory decline. Drink up!</p>
+        </div>
+
+        <div class="fact1">
+            <h3>Fact #2 <br>Broccoli</h3>
+            <p>Broccoli has a great deal of protein. Calorie for calorie, there is more protein in broccoli than steak. And it doesn’t come with all those saturated and trans fats or cholesterol, so you can get all the protein you need with a significantly lower risk of cardiovascular disease with this healthy food.</p>
+        </div>
+
+        <div class="fact1">
+            <h3>Fact #3 <br>Avocados</h3>
+            <p>Avocados are classified as a berry with a large seed. Avocados must be picked when matured in order to ripen, which can take between 1-2 weeks. In Spain and Mexico, avocados are called “alligator pears” due to their shape and bumpy, green skin, while in India and China, they are referred to as “butter pears”. This healthy food is good for you too! They're a great source of vitamin C, E, K, and B-6.</p>
+        </div>
+    </div>
+    <section class="Facts">
+
+        <div class="row">
+            <div class="fact1">
+                <h3>Fact #4 <br>Hot dogs</h3>
+                <p>It’s not clear where the hot dog originated from. Some say it was invented in the Austrian city of Vienna by two Austro-Hungarian immigrants who took the recipe with them when they left for Chicago. Others say that it originated from Frankfurt, Germany, while another state that a butcher from Coburg, Germany, invented the hot dog in the late 1600s.</p>
+            </div>
+    
+            <div class="fact1">
+                <h3>Fact #5 <br>Water</h3>
+                <p>Drinking enough water every day can help you lose weight, helps reduce heart disease and cancer and helps flush toxins out of your body. Keeping your body hydrated can also help reduce cavities and tooth decay. At work, ensure you drink enough water as it will help you stay focused and concentrate on mental tasks.</p>
+            </div>
+    
+            <div class="fact1">
+                <h3>Fact #6 <br>Peanut butter</h3>
+                <p>Studies have shown that eating peanut butter can help lower cholesterol, aid in weight loss and prevent type 2 diabetes. Bet you didn't know this either, but peanut butter glows in the dark after it's exposed to intense light!</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+
+
+<section class="Footer">
+    <h4>
+        About us.
+    </h4>
+    <p>Know more about us on our socials</p>
+    <div class="icons">
+        <p>John Rhey Villanueva<i class="fa fa-facebook-official"></i></p>
+        <p>@Jrvskree<i class="fa fa-twitter"></i></p>
+        <p>@Jrvskree<i class="fa fa-instagram"></i></p>
+    </div>
+    <p>Made by John Rhey R. Villanueva</p>
+</section>
+
+<!-----Javascript for toggle Menu----->
+        <script>
+
+            var navlinks= document.getElementById("navlinks")
+
+            function showMenu(){
+                navlinks.style.right="0";
+            }
+            function hideMenu(){
+                navlinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
